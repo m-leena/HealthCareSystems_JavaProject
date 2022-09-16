@@ -7,6 +7,12 @@
   <version>0.2</version>
   <name>WebAppCal Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.3.1</version>
+</plugin>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
